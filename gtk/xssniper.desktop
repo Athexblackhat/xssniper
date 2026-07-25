@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.8
+Type=Application
+Name=xssniper
+Comment=xssniper Framework
+TryExec=/usr/bin/xssniper
+Categories=Application;Network;System;Security;GTK;Pentesting;
+Exec=/usr/bin/xssniper --gtk --silent
+Icon=/usr/share/xssniper/gtk/images/xssiper.png

@@ -1,0 +1,67 @@
+                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+                       ▄█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█▄
+                      ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██
+                     ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██
+                     ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██
+                     ██░░░░░░░░░░░░░█████░░░░░░░░░░░░░░░░░██
+                     ██░░░░░░░░░░░░░█████░░░░░░░░░░░░░░░░░██
+                     ██░░░░░░░░░░░░░█████░░░░░░░░░░░░░░░░░██
+                     ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██
+                     ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██
+                      ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██
+                       ▀█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█▀
+                         ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+
+    ██╗  ██╗███████╗███████╗███╗   ██╗██╗██████╗ ███████╗██████╗ 
+    ╚██╗██╔╝██╔════╝██╔════╝████╗  ██║██║██╔══██╗██╔════╝██╔══██╗
+     ╚███╔╝ ███████╗███████╗██╔██╗ ██║██║██████╔╝█████╗  ██████╔╝
+     ██╔██╗ ╚════██║╚════██║██║╚██╗██║██║██╔═══╝ ██╔══╝  ██╔══██╗
+    ██╔╝ ██╗███████║███████║██║ ╚████║██║██║     ███████╗██║  ██║
+    ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═══╝╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝
+
+
+     "The code doesn't obey the system"                         
+      v1.0 "ATHEX!" - 2026 by ATHEX                            
+   
+    ====================================
+    "The code doesn't obey the system"
+    ====================================
+
+    ====================================
+    Intro:
+    ====================================
+
+      Cross Site "Scripter" (aka xssniper) is an automatic -framework- to detect, exploit and report XSS vulnerabilities 
+      in web-based applications.
+
+      It provides several options to try to bypass certain filters and various special techniques for code injection.
+
+      ----------
+
+      xssniper has pre-installed [ > 1400 XSS ] attacking vectors and can bypass-exploit code on several WAFs:
+
+        - [Cloudflare]: Cloudflare WAF
+        - [Akamai]: Akamai (Kona / App & API Protector)
+        - [AWS]: AWS WAF
+        - [Azure]: Azure Front Door WAF
+        - [Imperva]: Imperva (Incapsula / Cloud WAF)
+        - [F5]: F5 BIG-IP ASM / Advanced WAF
+        - [Barracuda]: Barracuda WAF
+        - [ModSec]: Mod-Security + OWASP CRS v3
+        - [Wordfence]: Wordfence (WordPress)
+        - [Sucuri]: Sucuri (CloudProxy)
+        - [FortiWeb]: Fortinet FortiWeb
+        - [WebKnight]: AQTRONIX WebKnight
+
+
+    ====================================
+    License:
+    ====================================
+
+      xssniper is released under the terms of the General Public License v3.
+
+    ====================================
+    Author:
+    ====================================
+
+      athex (Athexblackhat) -  <teamathex82@gmail.com> - 03c8.net
