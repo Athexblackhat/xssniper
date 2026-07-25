@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+PKGDIR = debian/xssniper
+SHAREDIR = $(PKGDIR)/usr/share/xssniper
+
+%:
+	dh $@ --buildsystem=none
+
+override_dh_auto_install:
+	install -d $(SHAREDIR)
+	cp -a core gtk doc xssniper setup.py README.md $(SHAREDIR)/
+	find $(SHAREDIR) -type d -name '__pycache__' -prune -exec rm -rf {} +
+	find $(SHAREDIR) -type f -name '*.py[co]' -delete
+	install -d $(PKGDIR)/usr/bin
+	install -m0755 debian/xssniper.wrapper $(PKGDIR)/usr/bin/xssniper
+	install -d $(PKGDIR)/usr/share/applications
+	install -m0644 gtk/xssniper.desktop $(PKGDIR)/usr/share/applications/xssniper.desktop
